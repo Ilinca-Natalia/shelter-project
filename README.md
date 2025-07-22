@@ -1,12 +1,26 @@
-# React + Vite
+# My first project made woth React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Animal Shelter & Adoption Website
+A React + Vite project for an animal shelter website. The site showcases animals available for adoption, provides adoption and visit forms, and includes a donations section.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **Home:** Intro, slogan “Adopt, Don’t Shop,” and donations section  
+- **About Us:** Shelter story, mission, and team  
+- **Animals:** Gallery with details and adoption option  
+- **Adoption Form:** Collects adopter info and readiness check  
+- **Schedule Visit:** Form to book a visit to the shelter  
+- **Contact:** Contact form and info  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Technologies
+
+- React + Vite with fast development 
+- ESLint for code quality  
+- EmailJS for handling form submissions without backend  
+
+
+
