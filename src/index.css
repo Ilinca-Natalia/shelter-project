@@ -1,0 +1,84 @@
+:root {
+  font-family: 'Poppins', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  /* culoare text caldă pentru light mode */
+  color: rgba(54, 48, 38, 0.9);
+  /* fundal crem cald */
+  background-color: #fffdf7;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 600;
+  color: #f47c48; 
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: #d86922; 
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  background-color: #fffdf7;
+  color: #363026;
+  place-items: center; 
+
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  font-weight: 700;
+  color: #6a5a3f;
+  text-align: center;
+  margin: 0;
+}
+
+button {
+  border-radius: 12px;
+  border: none;
+  padding: 0.8em 1.6em;
+  font-size: 1.1em;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  background-color:  #f47c48;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(244, 124, 72, 0.4);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+button:hover {
+  background-color: #d86922;
+  box-shadow: 0 6px 16px rgba(216, 105, 34, 0.6);
+}
+button:focus,
+button:focus-visible {
+  outline: 3px solid #d86922;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #363026;
+    background-color: #fffdf7;
+  }
+  a:hover {
+    color: #d86922;
+  }
+  button {
+    background-color: #f47c48;
+    color: white;
+  }
+}

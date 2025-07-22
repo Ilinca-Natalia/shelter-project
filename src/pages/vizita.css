@@ -1,0 +1,109 @@
+
+.vizita-page {
+  background-color: #05251a;
+  color: #fff;
+  padding: 4rem 2rem;
+  font-family: 'Poppins', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.vizita-page h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #f47c48;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.vizita-page p {
+  font-size: 1.4rem;
+  color: #ffffff;
+  margin-bottom: 4rem;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.vizita-form {
+  background-color: #fff;
+  color: #05251a;
+  width: 95vw;
+  max-width: 800px;          
+  padding: 2rem 2.5rem;      
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.18);
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;             
+  text-align: left;
+  font-weight: 500;
+}
+
+.vizita-form h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #f47c48;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.vizita-form label {
+  font-weight: 600;
+  color: #333;
+}
+
+.vizita-form input,
+.vizita-form textarea {
+  width: 100%;
+  padding: 1rem 1.2rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  background-color: #f9f9f9;
+  color: #000;
+  transition: border 0.3s ease;
+  font-family: 'Poppins', sans-serif;
+}
+
+.vizita-form input:focus,
+.vizita-form textarea:focus {
+  border-color: #f47c48;
+  background-color: #fff;
+  outline: none;
+  box-shadow: 0 0 8px #f47c48aa;
+}
+
+.vizita-form textarea {
+  resize: vertical;
+  min-height: 140px;
+}
+
+.vizita-form button {
+  background-color: #f47c48;
+  color: white;
+  padding: 1rem 1.6rem;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  align-self: flex-start;
+  box-shadow: 0 5px 15px rgba(244, 124, 72, 0.5);
+}
+
+.vizita-form button:hover {
+  background-color: #d55e2e;
+  box-shadow: 0 8px 20px rgba(213, 94, 46, 0.7);
+}
+
+@media (max-width: 768px) {
+  .vizita-form {
+    padding: 1.5rem 1.5rem;
+    width: 100%;
+  }
+}

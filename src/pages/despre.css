@@ -1,0 +1,115 @@
+.despre-page {
+  background-color: #05251a;
+  color: #ffffffff;
+  padding: 4rem 2rem;
+  min-height: 100vh;
+  font-family: 'Poppins', sans-serif;
+}
+
+.despre-hero {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.despre-hero h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  color: #f47c48;
+}
+
+.despre-hero p {
+  font-size: 1.6rem;
+  color: #ffffff;
+  margin-bottom: 4rem;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.despre-section {
+  max-width: 1200px;
+  margin: 0 auto 0.5rem;
+  text-align: center; 
+}
+
+.despre-section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #fff;
+  border-bottom: 2px solid #b8ffdb;
+  padding-bottom: 0.5rem;
+}
+
+.despre-section p,
+.despre-section ul {
+  font-size: 1.1rem;
+  color: #fff;
+}
+
+.despre-section ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.despre-section ul li {
+  margin-bottom: 0.75rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+
+.section-box {
+  background-color: #06be621a; 
+  border: 2px solid #b8ffdb;
+  border-radius: 16px;
+  padding: 2rem;
+  margin: 2rem auto;
+  max-width: 900px;
+  box-shadow: 0 0 15px #b8ffdb40;
+  transition: transform 0.3s ease;
+}
+
+.section-box:hover {
+  transform: scale(1.01);
+}
+
+
+.echipa-carousel {
+  max-width: 800px;
+  margin: 4rem auto 2rem;
+  text-align: center;
+}
+
+.echipa-slide img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+  margin: 0 auto 1rem;
+  border: 4px solid #b8ffdb;
+}
+
+
+.echipa-slide h3 {
+  font-size: 1.3rem;
+  margin: 0.5rem 0 0.2rem;
+  color: #f47c48;
+}
+
+.echipa-slide h4 {
+  font-size: 1rem;
+  color: #b8ffdb;
+  margin-bottom: 0.5rem;
+}
+
+.echipa-slide p {
+  font-size: 1rem;
+  color: #ffffffcc;
+  max-width: 600px;
+  margin: 0 auto;
+}

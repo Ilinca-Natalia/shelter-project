@@ -1,0 +1,173 @@
+.doneaza-page {
+  background-color: #05251a;
+  color: #fff;
+  padding: 4rem 2rem;
+  font-family: 'Poppins', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.doneaza-page h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #f47c48;
+  margin-bottom: 1rem;
+}
+
+.doneaza-page p {
+  font-size: 1.4rem;
+  color: #ffffff;
+  margin-bottom: 4rem;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.doneaza-form {
+  background-color: #fff;
+  color: #05251a;
+  width: 95vw;
+  max-width: 800px;
+  padding: 2rem 2.5rem;
+  border-radius: 12px; 
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15); 
+  display: flex;
+  flex-direction: column;
+  gap: 1rem; 
+  text-align: left;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+
+.doneaza-form label {
+  font-weight: 500;
+  margin-bottom: 0.3rem;
+  color: #333;
+}
+
+.doneaza-form input,
+.doneaza-form textarea,
+.doneaza-form select {
+  width: 100%;
+  padding: 0.9rem 1.1rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 1rem; 
+  background-color: #f9f9f9;
+  color: #000;
+  transition: border 0.2s ease;
+  font-family: 'Poppins', sans-serif;
+}
+
+.doneaza-form input:focus,
+.doneaza-form textarea:focus,
+.doneaza-form select:focus {
+  border-color: #f47c48;
+  outline: none;
+  background-color: #fff;
+  box-shadow: 0 0 8px #f47c48aa;
+}
+
+.buttons-sume {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.buttons-sume button {
+  padding: 0.9rem 2rem;
+  border-radius: 40px;
+  border: none;
+  background-color: #f47c48;
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.buttons-sume button.selected,
+.buttons-sume button:hover {
+  background-color: #d55e2e;
+  box-shadow: 0 8px 20px rgba(213, 94, 46, 0.7);
+}
+
+.radio-group {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 1rem;
+}
+
+.radio-group label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 600;
+  color: #333;
+  cursor: pointer;
+}
+
+.radio-group input[type="radio"] {
+  cursor: pointer;
+  width: 18px;
+  height: 18px;
+  accent-color: #f47c48;
+}
+
+.doneaza-form button[type="submit"] {
+  background-color: #f47c48;
+  color: white;
+  padding: 1rem 1.6rem;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  align-self: flex-start;
+  box-shadow: 0 5px 15px rgba(244, 124, 72, 0.5);
+  min-width: 160px;
+}
+
+.doneaza-form button[type="submit"]:hover:not(:disabled) {
+  background-color: #d55e2e;
+  box-shadow: 0 8px 20px rgba(213, 94, 46, 0.7);
+}
+
+.doneaza-form button[type="submit"]:disabled {
+  background-color: #ccc;
+  color: #666;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+.detalii-plata {
+  background-color: #05251a;
+  color: #05251a !important;
+  border-radius: 12px;
+  padding: 0,5rem 0,5rem;
+  font-weight: 600;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+.detalii-plata p {
+  font-size: 1.4rem;
+}
+
+.detalii-plata strong {
+  color: #f47c48 !important;
+  font-size: 1.4rem;
+}
+
+@media (max-width: 768px) {
+  .doneaza-form {
+    padding: 1.5rem 1.5rem;
+    width: 100%;
+  }
+}

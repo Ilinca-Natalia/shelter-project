@@ -1,0 +1,129 @@
+.animal-detalii-container {
+  background-color: #05251a;
+  color: #fff;
+  min-height: 100vh;
+  padding: 3rem 2rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.animal-detalii-container h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #ffd9a0;     
+  text-align: center;  
+  position: relative;  
+  margin-bottom: 1.5rem;
+}
+
+.animal-detalii-container h1::after {
+  content: "";
+  display: block;
+  width: 100px;                
+  height: 4px;                 
+  background-color: #f47c48;   
+  margin: 0.5rem auto 0;       
+  border-radius: 2px;
+}
+
+.animal-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+.animal-image {
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.3);
+}
+
+.animal-info {
+  max-width: 600px;
+  text-align: left;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #fff;
+}
+
+.animal-info p {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.animal-info strong {
+  color: #ffffff;
+}
+
+.bottom-cta button {
+  padding: 0.9rem 2rem;
+  background-color: #ffffff;  
+  color: #f47c48;             
+  border: none;
+  border-radius: 40px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: box-shadow 0.2s ease;
+  margin-bottom: 3rem;
+}
+
+.bottom-cta button:hover,
+.bottom-cta button:focus-visible {
+  background-color: #ffffff;   
+  color: #0e3a2b;
+  box-shadow: 0 0 0 3px rgba(14, 58, 43, 0.15);
+}
+
+.bottom-cta {
+  margin-top: 2rem; 
+  display: flex;
+  justify-content: center;
+}
+
+.home-redesign .bottom-cta button {
+  background-color: #ffffff !important;
+  color: #0e3a2b !important;
+}
+
+.animal-image {
+  width: 350px;   
+  height: 450px;  
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.3);
+}
+
+
+.animal-image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+
+.animal-image-container .adopta-btn {
+  margin-top: 2rem; 
+  width: 100%;
+  max-width: 350px; 
+}
+
+.animal-detalii-info {
+  padding: 1rem 1.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.4); 
+  border-radius: 10px; 
+  margin-top: 1.5rem;
+  color: #d0f0e9;
+  background: none; 
+}
+
+.animal-detalii-info p {
+  margin-bottom: 0.2rem;
+  font-size: 1.2rem;
+}
+
